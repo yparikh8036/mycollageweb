@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab');
+*{
+	padding: 0;
+	margin:0;
+}
+
+.hpm{
+	background-image: url(img/back.jpg);
+	background-repeat:no-repeat;
+	height: 100vh;
+	
+	background-position:center;
+	background-size: cover;
+	
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	font-size:300%;
+	color:#F50057;
+}
+.center{
+
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/*****button*******/
+
+.btn{
+	margin-top:50px;
+	margin-left: 125px;
+	color: white;
+}
+.btn-one:hover{
+	background-color: #76EE00;
+}
+.btn-one{
+	border: 1px solid white;
+	padding: 10px 30px;
+	margin-right: 5px;
+	text-decoration: none;
+	font-size: 25px;
+ 	font-family: 'Bitter', serif;
+ 	color: #483D8B;
+}
+.btn-two{
+	border: 1px solid white;
+	padding: 10px 30px;
+	margin-right: 15px;
+	text-decoration: none;
+	font-size: 25px;
+ font-family: 'Bitter', serif;
+color: #483D8B;
+}
+
+
+
+.btn-two:hover{
+	background-color: #76EE00;
+}
+
+/*******paralex********/
+
+	.paralex{
+	background: url(img/para.jpg) repeat fixed 100%;
+	opacity: .7;
+	}
+
+	.inner-paralex{
+
+		padding-top: 9%;
+
+	}
+
+
+
+/*.clear-fix{
+	clear: both;
+	margin-top:10px;
+}*/
+.log{
+	background-color: #f64848;
+	padding:5%; 
+}
+p{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.login{
+	height:150px;
+	width:240px;
+	margin:auto;
+
+	border:1px #fff solid;
+	padding:45px;
+	padding-top: 25px;	 
+
+}
+
+#btnlog{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+ 
+
+.login input {
+
+	padding:5px;
+
+	margin:5px;
+	width:230px;
+	height: 35px;
+}
+
+#sinsec{
+	background-color: #bb5ef0;
+	/*b538fd ab6ef8*/
+}
+
+
+#btnsign{
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 7px;
+}
+
+.signup1
+{
+height:auto;
+width:200px;
+margin:auto;
+padding: 25px;
+border:1px #fff solid;
+}
+
+ 
+
+.signup1 input {
+	
+	padding:11px;
+	margin:5px;
+	margin-left: 10px;
+}
